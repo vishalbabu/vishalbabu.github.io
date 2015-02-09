@@ -3,6 +3,23 @@ body {
 	text-align: center;
 }
 
-#name{
-	text-align: left;
+.logo {
+	border-radius: 85px;
+}
+
+.exp-logo {
+	display: block;
+	margin: auto;
+}
+
+#bio {
+	margin-left: 10em;
+	margin-right: 10em;
+}
+
+@media only screen and (max-width: 768px) {
+	#bio {
+		margin-left: 2em;
+		margin-right: 2em;
+	}
 }
