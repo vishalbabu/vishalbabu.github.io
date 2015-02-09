@@ -23,3 +23,11 @@ body {
 		margin-right: 2em;
 	}
 }
+
+.fa {
+	color: gray;
+}
+
+.fa:hover {
+	color: blue;
+}
