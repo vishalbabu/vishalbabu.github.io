@@ -3,8 +3,13 @@ body {
 	text-align: center;
 }
 
+#title {
+	color: white;
+}
+
 .logo {
-	border-radius: 85px;
+	width:170px;
+	border-radius: 100px;
 }
 
 .exp-logo {
@@ -12,22 +17,41 @@ body {
 	margin: auto;
 }
 
-#bio {
-	margin-left: 10em;
-	margin-right: 10em;
-}
 
 @media only screen and (max-width: 768px) {
-	#bio {
+	.info {
 		margin-left: 2em;
 		margin-right: 2em;
 	}
 }
 
 .fa {
-	color: gray;
+	color: white;
 }
 
 .fa:hover {
 	color: blue;
+}
+
+.header {
+	background-image: url("background.jpg");
+}
+
+.clearfix {
+	clear: both;
+}
+
+#apple{
+	/*float: left;*/
+	/*margin-top: -22px;*/
+	/*margin-left: 20px;*/
+}
+
+#blackberry{
+	/*margin-top: 15px;*/
+}
+
+#mbt{
+	/*float: right;*/
+	/*margin-top: -69px;*/
 }
