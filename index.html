@@ -1,60 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Vishal Babu</title>
-	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-</head>
-<body>
-	<div class="header">
-	<h1 id="title">Vishal Babu</h1>
-	<img src="main_profile.jpg" class="logo" alt="Vishal Babu">
-	<p>
-		<a href="mailto:vishalbabu@hotmail.com"><i class="fa fa-envelope-o fa-2x"></i></a>
-		&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="tel:408-799-4119"><i class="fa fa-phone fa-2x"></i></a>
-		&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="https://github.com/vishalbabu"><i class="fa fa-github fa-2x"></i></a>
-		&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="VishalB_Resume.pdf"><i class="fa fa-file-text fa-2x"></i></a>
-	</p>
-	</div>
+    <title>Vishal Babu</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Vishal Babu">
+    <meta name="description" content="Nav Bar Test.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="navBar.css" rel="stylesheet">
+  </head>
 
-	<br>
-
-	<h2 id="name">About Me</h2>
-	<p class="info">I am a 3rd year Systems Design Engineering student at the University of Waterloo. I have a keen interest in innovation &amp; design and am able to think outside the box. I enjoy playing tennis and reading any book I can get my hands on.</p>
-
-	<br>
-
-	<h2>Professional Experience</h2>
-
-	<div id="experiences">
-		<div class="experience-item">
-			<div class="left-column">
-
-	<a herf="http://www.teslamotors.com/">
-		<img src="tesla.jpeg" class="exp-logo" id="tesla" alt="Tesla Logo" height="80"
-	</a> 
-	<br>
-		</div>
-				</div>
-					</div>
-
-	<div class="right-column">
-	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-	</div>
-	
-	<a href="http://www.apple.com/">
-		<img src="apple.svg" class="exp-logo" id="apple" alt="Apple logo" height="80">
-	</a>
-	<br>
-	<a href="http://us.blackberry.com/">
-		<img src="blackberry.svg" class="exp-logo" id="blackberry" alt="Blackberry logo" height="60">
-	</a>
-	<a ref="http://medicineforabettertomorrow.com/">
-		<img src="mbt.gif" class="exp-logo" id="mbt" alt="MBT logo" height="80">
-	</a>
-
+  <body>
+<div class="wrapper">
+  <nav class="vertical">
+    <ul>
+      <li>
+        <label for="home">Work Experience</label>
+        <input type="radio" name="verticalMenu" id="home" />
+        <div>
+          <ul>
+            <li><a href="file:///Users/vishalbabu/Documents/vishalbabu.github.io-master/workexp.html#tesla">Tesla</a></li>
+            <li><a href="file:///Users/vishalbabu/Documents/vishalbabu.github.io-master/workexp.html">Apple</a></li>
+            <li><a href="#">BlackBerry</a></li>
+            <li><a href="#">MBT</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <label for="blog">Resume</label>
+        <input type="radio" name="verticalMenu" id="blog" />
+        <div>
+          <ul>
+            <li><a href="VishalB_Resume.pdf">Vishal Babu</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <label for="work">Links</label>
+        <input type="radio" name="verticalMenu" id="work" />
+        <div>
+          <ul>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Mail</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</div>
 </body>
 </html>
