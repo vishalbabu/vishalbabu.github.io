@@ -126,6 +126,15 @@ span::selection {
 	-webkit-transition: 0.2s ease-out;
 }
 
+.experience-image2 {
+	border-radius: 10%;
+	width: 150px;
+	height: 150px;
+	background-color: #FFFFFF;
+	transition: 0.2s ease-out;
+	-webkit-transition: 0.2s ease-out;
+}
+
 .experience-title {
 	margin-top: 5%;
 	font-size: 25px;
