@@ -10,6 +10,7 @@
 
 body {
     background-image: url("mainpage.jpg");
+    background-repeat: no-repeat;
     color: #444;
     -webkit-font-smoothing: antialiased;
     font-family: 'Helvetica Neue', sans-serif;
